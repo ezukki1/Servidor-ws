@@ -1,17 +1,12 @@
 {
-  "name": "serve-websockets",
+  "name": "chatgroup-websocket-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Servidor WebSocket para ChatGroup usando ws.",
+  "main": "server.js", // <-- Poner "server.js" en lugar de "index.js"
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js" // <-- El comando de inicio debe ser "server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "ws": "^8.18.3"
+    "ws": "^8.18.0"
   }
 }
